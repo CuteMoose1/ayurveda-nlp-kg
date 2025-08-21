@@ -1,0 +1,2 @@
+MERGE (a:Herb {name:'Amla'}) MERGE (b:Disease {name:'Pitta'}) MERGE (a)-[:SHAMAYATI]->(b)
+MERGE (a:Herb {name:'Triphala'}) MERGE (b:Disease {name:'Pitta'}) MERGE (a)-[:SHAMAYATI]->(b)
